@@ -17,7 +17,7 @@ To create the application:
 
 To install the required dependencies:
 
-`npm i`
+`npm install`
 
 To run the application
 
@@ -26,7 +26,7 @@ To run the application
 To build the application, for all possible output targets,
 so that our test "consumer" apps can make use of them:
 
-`npm run start`
+`npm run build`
 
 ## Setting up an example app
 
@@ -45,7 +45,7 @@ Step into the created react app's folder:
 To install Venus (Stencil) components:
 (point this to the folder where the Venus package.json is located)
 
-`npm i venus file:../../venus`
+`npm install venus file:../../venus`
 
 To run the application
 
