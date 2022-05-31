@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { MyComponent } from 'stencil-components/dist/components/my-component'
+
+customElements.define('my-stencil-component', MyComponent);
 
 function App() {
   return (
+    <>
+    <my-stencil-component first="A" middle="Web" last="Dev!"></my-stencil-component>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +24,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
