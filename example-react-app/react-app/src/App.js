@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { MyComponent } from 'stencil-components/dist/components/my-component'
+import { MyComponent } from 'venus/dist/components/my-component'
 
 customElements.define('my-stencil-component', MyComponent);
 
