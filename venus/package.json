@@ -1,6 +1,6 @@
 {
-  "name": "venus-venus-venus",
-  "version": "0.0.2",
+  "name": "@panververis/venus",
+  "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/components/index.js",
@@ -12,7 +12,7 @@
   "unpkg": "dist/venus/venus.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
   },
   "files": [
     "dist/",
@@ -34,5 +34,18 @@
     "jest-cli": "^27.4.5",
     "puppeteer": "^10.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionic-team/stencil-component-starter/issues"
+  },
+  "homepage": "https://github.com/ionic-team/stencil-component-starter#readme",
+  "keywords": [
+    "awesome",
+    "ryan",
+    "dildeep",
+    "webcomponents",
+    "stenciljs",
+    "catfacts"
+  ],
+  "author": "US_WE_AMAZING"
 }
