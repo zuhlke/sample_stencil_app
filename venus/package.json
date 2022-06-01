@@ -1,6 +1,6 @@
 {
-  "name": "venus",
-  "version": "0.0.1",
+  "name": "venus-venus-venus",
+  "version": "0.0.2",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/components/index.js",
