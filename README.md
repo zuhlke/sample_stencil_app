@@ -15,7 +15,7 @@ Aside from Venus (which is a "Component Library", ready to be used by other proj
 
 Navigate into Venus' local directory:
 
-`cd venus`
+`cd venus-stencil-demo`
 
 
 To install the required dependencies:
@@ -48,7 +48,7 @@ To install all non-venus dependencies:
 
 To install Venus (Stencil) components using the symbolic link we created above:
 
-`npm link venus`
+`npm link venus-stencil-demo`
 
 To run the application
 

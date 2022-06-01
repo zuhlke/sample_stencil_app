@@ -2,7 +2,7 @@ import { newSpecPage } from '@stencil/core/testing';
 import { CatFacts } from '../cat-facts';
 
 describe('cat-facts', () => {
-  it('renders', async () => {
+  it('should render', async () => {
     const page = await newSpecPage({
       components: [CatFacts],
       html: `<cat-facts></cat-facts>`,

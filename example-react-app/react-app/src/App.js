@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { MyComponent } from 'venus/dist/components/my-component'
-import { CatFacts } from 'venus/dist/components/cat-facts'
+import { MyComponent } from 'venus-stencil-demo/dist/components/my-component'
+import { CatFacts } from 'venus-stencil-demo/dist/components/cat-facts'
 
 customElements.define('my-stencil-component', MyComponent);
 customElements.define('cat-facts', CatFacts);
