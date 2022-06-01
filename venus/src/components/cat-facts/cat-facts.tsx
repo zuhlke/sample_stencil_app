@@ -25,7 +25,7 @@ export class CatFacts {
   render() {
     return (
       <Fragment>
-        Hi, do you want some cat facts?
+        Hi, do you want some cat facts? Because they are awesome?
         {this.items.map(i =>
           <p>{i}</p>
         )}
