@@ -1,9 +1,5 @@
 import { Component, h, State, Fragment } from '@stencil/core';
-
-interface CatFact {
-  fact: string;
-  length: number;
-}
+import { fetchCatFactsText } from './cat-facts-service';
 
 @Component({
   tag: 'cat-facts',
@@ -14,12 +10,8 @@ export class CatFacts {
 
   @State() items: string[];
 
-  componentWillLoad() {
-    return fetch('https://catfact.ninja/facts')
-      .then(response => response.json())
-      .then(data => {
-        this.items = data.data.map((e: CatFact) => e.fact)
-      });
+  async componentWillLoad() {
+    this.items = await fetchCatFactsText();
   }
 
   render() {
