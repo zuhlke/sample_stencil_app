@@ -18,10 +18,7 @@ export class CatFacts {
     return (
       <Fragment>
         Hi, do you want some cat facts? Because they are awesome?
-        {this.items.map(i =>
-          <p>{i}</p>
-        )}
-
+        {this.items.map(i => <p>{i}</p> )}
       </Fragment>
     );
   }

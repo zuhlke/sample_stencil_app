@@ -14,7 +14,10 @@ describe('cat-facts', () => {
     expect(page.root).toEqualHtml(`
       <cat-facts>
         <mock:shadow-root>
-          <slot></slot>
+          Hi, do you want some cat facts? Because they are awesome?
+          <p> a cat fact text here </p>
+          <p> another cat fact text here </p>
+          <p> and a third one here </p>
         </mock:shadow-root>
       </cat-facts>
     `);
